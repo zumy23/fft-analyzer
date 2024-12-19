@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cpal = "0.15"
+egui = "0.22"
+eframe = "0.22"
+winapi = { version = "0.3.9", features = ["winuser", "windef"] }
